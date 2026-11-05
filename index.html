@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Política de Privacidade do aplicativo GCS, desenvolvido por AS Software Engineering.">
+  <title>Política de Privacidade | GCS — AS Software Engineering</title>
+  <style>
+    :root{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#1c2b3a;background:#f3f6fa;line-height:1.7}
+    *{box-sizing:border-box}body{margin:0}header{background:linear-gradient(125deg,#10233b,#174b66);color:white;padding:64px 24px 46px}header>div,main,footer>div{max-width:840px;margin:auto}
+    .eyebrow{font-size:.82rem;letter-spacing:.13em;text-transform:uppercase;color:#abdce5;font-weight:700}h1{font-size:clamp(2rem,4vw,2.9rem);line-height:1.16;margin:12px 0}header p{color:#dfedf5;max-width:680px}main{background:white;margin:32px auto;padding:38px 44px;border:1px solid #e4e9ef;border-radius:18px;box-shadow:0 12px 35px rgba(20,40,70,.05)}h2{font-size:1.22rem;margin-top:34px;color:#143952}p,li{font-size:1rem}li{margin:8px 0}a{color:#006b8a;overflow-wrap:anywhere}footer{padding:0 24px 38px;color:#536477;font-size:.9rem}.meta{font-size:.92rem;color:#5a6c7b}.notice{border-left:4px solid #be7822;background:#fff7e9;padding:16px 18px;border-radius:5px}.notice strong{color:#854e0f}.tag{border:1px solid #b9cfd8;color:#d7ebee;border-radius:999px;padding:4px 11px;font-size:.78rem;display:inline-block}table{border-collapse:collapse;width:100%;margin:16px 0}th,td{border-bottom:1px solid #e6ecf0;padding:10px;text-align:left;vertical-align:top}th{background:#f4f8fa}code{background:#edf3f5;padding:2px 5px;border-radius:4px}@media(max-width:640px){main{margin:16px 12px;padding:24px 20px}header{padding:40px 20px 32px}table{font-size:.9rem}}
+  </style>
+</head>
+<body>
+<header><div><span class="eyebrow">AS Software Engineering</span><h1>Política de Privacidade</h1><p>Aplicativo <strong>GCS — Ground Control Station</strong></p><span class="tag">Versão preliminar para validação</span></div></header>
+<main>
+  <p class="meta"><strong>Última revisão do rascunho:</strong> 05 de novembro de 2026<br><strong>Responsável:</strong> AS Software Engineering</p>
+  <div class="notice"><strong>ATENÇÃO — TEXTO EM VALIDAÇÃO.</strong> Esta versão é um modelo para revisão técnica antes da publicação. As práticas efetivas do aplicativo ainda precisam ser verificadas. Substitua os campos indicados e remova este aviso somente depois de confirmar permissões, tráfego de rede, SDKs e políticas de retenção. Não apresente esta versão provisória como declaração final de tratamento de dados.</div>
+  <h2>1. Objetivo e abrangência</h2>
+  <p>Esta política descreve como o aplicativo <strong>GCS — Ground Control Station</strong>, disponibilizado por <strong>AS Software Engineering</strong>, poderá acessar e tratar informações durante a conexão, a visualização e o acompanhamento de veículos remotamente pilotados. Aplica-se especificamente ao aplicativo GCS para Android, e não a aplicativos de terceiros ou aos próprios sistemas embarcados.</p>
+  <h2>2. Categorias de dados a verificar</h2>
+  <p>Conforme os módulos habilitados e as permissões concedidas, uma estação de controle pode trabalhar com as categorias abaixo. <strong>A existência e o uso de cada categoria precisam ser confirmados na versão distribuída.</strong></p>
+  <table><thead><tr><th>Categoria potencial</th><th>Finalidade possível</th></tr></thead><tbody>
+  <tr><td>Localização do dispositivo (GPS)</td><td>Mostrar a posição do dispositivo ou ajudar na visualização do mapa.</td></tr>
+  <tr><td>Posição, orientação e telemetria do veículo</td><td>Exibir estado, trajetória, alertas e dados operacionais recebidos do sistema conectado.</td></tr>
+  <tr><td>Imagem ou vídeo de câmeras conectadas</td><td>Visualizar o fluxo de vídeo durante uma sessão operacional.</td></tr>
+  <tr><td>Identificadores de dispositivos, endereços IP e parâmetros de conexão</td><td>Estabelecer e manter comunicações com sistemas autorizados.</td></tr>
+  <tr><td>Registros de diagnóstico e de operação</td><td>Investigar erros e apoiar testes, quando esse registro estiver habilitado.</td></tr>
+  </tbody></table>
+  <p><strong>Inventário definitivo do que é acessado, coletado, gravado ou transmitido:</strong> [PREENCHER APÓS AUDITORIA DA VERSÃO ANDROID].</p>
+  <h2>3. Uso e transmissão das informações</h2>
+  <p>Dados necessários à operação podem ser processados no dispositivo e, quando a conexão a equipamentos estiver habilitada, trafegar entre o aplicativo e o veículo, controlador, câmera ou outro equipamento configurado pelo usuário. Esse tráfego operacional não significa necessariamente envio a servidores do desenvolvedor.</p>
+  <p><strong>Destinatários, endpoints, serviços em nuvem, analíticos, crash reporting e eventuais transferências de dados:</strong> [IDENTIFICAR EXPRESSAMENTE CADA DESTINATÁRIO OU DECLARAR AUSÊNCIA APÓS VERIFICAÇÃO].</p>
+  <h2>4. Compartilhamento com terceiros</h2>
+  <p>O aplicativo poderá integrar serviços externos utilizados para mapas, imagens, conectividade e diagnóstico, dependendo da versão instalada. Cada serviço efetivamente utilizado e sua função deverão ser identificados aqui antes da publicação.</p>
+  <p><strong>Terceiros e categorias de dados compartilhados:</strong> [LISTAR NOMES/TIPOS DE PRESTADORES, DADOS E FINALIDADES, OU DECLARAR AUSÊNCIA VERIFICADA].</p>
+  <h2>5. Permissões do Android</h2>
+  <p>As permissões solicitadas dependerão das funções implementadas. O aplicativo deverá apresentar explicações adequadas quando for necessário acessar recursos sensíveis, como localização, câmera, microfone, arquivos ou dispositivos próximos.</p>
+  <p><strong>Permissões efetivas e motivos:</strong> [CONFERIR O ANDROIDMANIFEST.XML, PERMISSÕES EM TEMPO DE EXECUÇÃO E SDKs].</p>
+  <h2>6. Armazenamento, segurança e conservação</h2>
+  <p>Os mecanismos de segurança e os períodos de retenção precisam refletir a implementação efetiva, incluindo arquivos locais, históricos de voo, registros técnicos, imagens, cache e possíveis cópias em serviços remotos.</p>
+  <p><strong>Controles de segurança aplicados:</strong> [DESCREVER SOMENTE MEDIDAS COMPROVADAS].<br><strong>Períodos de retenção:</strong> [DEFINIR POR CATEGORIA DE DADO].</p>
+  <h2>7. Exclusão dos dados e direitos do usuário</h2>
+  <p>O procedimento de exclusão dependerá de onde as informações forem mantidas. Dados locais poderão exigir ação do usuário no aplicativo ou nas configurações do Android. Caso exista armazenamento sob controle do desenvolvedor, será divulgado um canal para solicitar acesso, correção ou exclusão, conforme aplicável.</p>
+  <p><strong>Procedimento efetivo de exclusão:</strong> [DETALHAR ETAPAS E PRAZOS].<br><strong>Criação de conta no aplicativo:</strong> [INFORMAR SE EXISTE; SE SIM, INCLUIR MÉTODO DE EXCLUSÃO DA CONTA E DADOS ASSOCIADOS].</p>
+  <h2>8. Público-alvo</h2>
+  <p>O GCS é concebido como uma ferramenta técnica de controle e monitoramento de sistemas remotamente pilotados, e não é direcionado especificamente a crianças.</p>
+  <h2>9. Atualizações desta política</h2>
+  <p>Esta política será atualizada sempre que ocorrerem alterações relevantes nas práticas de tratamento de dados, nos recursos do aplicativo ou nos serviços integrados. A data de revisão será atualizada nesta página.</p>
+  <h2>10. Contato de privacidade</h2>
+  <p><strong>Desenvolvedor:</strong> AS Software Engineering<br><strong>E-mail para solicitações de privacidade:</strong> [INSERIR E-MAIL DE CONTATO VÁLIDO]</p>
+</main>
+<footer><div>© 2026 AS Software Engineering · Política de Privacidade do aplicativo GCS</div></footer>
+</body>
+</html>
